@@ -1,0 +1,74 @@
+{
+   "abstract" : "A parser of tabulated or comma separated value files",
+   "author" : [
+      "Jos\u00e9 M. Fern\u00e1ndez <jose.m.fernandez@bsc.es>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Milla version v1.0.20, Dist::Zilla version 6.012, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "lgpl_2_1"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "TabParser",
+   "no_index" : {
+      "directory" : [
+         "eg",
+         "examples",
+         "inc",
+         "share",
+         "t",
+         "xt"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.034"
+         },
+         "suggests" : {
+            "JSON::PP" : "2.27300"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Dist::Milla" : "v1.0.20",
+            "Test::Pod" : "1.41"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "IO::File" : "0",
+            "perl" : "5.008005"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.96"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/inab/TabParser/issues"
+      },
+      "homepage" : "https://github.com/inab/TabParser",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/inab/TabParser.git",
+         "web" : "https://github.com/inab/TabParser"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "Jos\u00e9 Mar\u00eda Fern\u00e1ndez <2072150+jmfernandez@users.noreply.github.com>"
+   ],
+   "x_generated_by_perl" : "v5.28.2",
+   "x_serialization_backend" : "Cpanel::JSON::XS version 3.0239",
+   "x_static_install" : 1
+}
+
