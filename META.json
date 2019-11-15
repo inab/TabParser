@@ -1,7 +1,7 @@
 {
    "abstract" : "A parser of tabulated or comma separated value files",
    "author" : [
-      "Jos\u00e9 M. Fern\u00e1ndez <jose.m.fernandez@bsc.es>"
+      "Jos\u00e9 M. Fern\u00e1ndez L<https://github.com/jmfernandez>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Dist::Milla version v1.0.20, Dist::Zilla version 6.012, CPAN::Meta::Converter version 2.150010",
@@ -35,6 +35,7 @@
       "develop" : {
          "requires" : {
             "Dist::Milla" : "v1.0.20",
+            "Dist::Zilla::Plugin::Run" : "0.048",
             "Test::Pod" : "1.41"
          }
       },
@@ -63,9 +64,10 @@
          "web" : "https://github.com/inab/TabParser"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
-      "Jos\u00e9 Mar\u00eda Fern\u00e1ndez <2072150+jmfernandez@users.noreply.github.com>"
+      "Jos\u00e9 Mar\u00eda Fern\u00e1ndez <2072150+jmfernandez@users.noreply.github.com>",
+      "Jos\u00e9 Mar\u00eda Fern\u00e1ndez <jose.m.fernandez@bsc.es>"
    ],
    "x_generated_by_perl" : "v5.28.2",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0239",

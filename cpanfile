@@ -10,4 +10,5 @@ on test => sub {
 
 on develop => sub {
     requires 'Dist::Milla', '1.0.20';
+    requires 'Dist::Zilla::Plugin::Run', '0.048';
 };

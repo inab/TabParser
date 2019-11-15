@@ -27,7 +27,7 @@ parseTab parameters:
 
 # AUTHOR
 
-José M. Fernández <jose.m.fernandez@bsc.es>
+José M. Fernández [https://github.com/jmfernandez](https://github.com/jmfernandez)
 
 # COPYRIGHT
 

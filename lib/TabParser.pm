@@ -486,7 +486,7 @@ sub parseTab($;\%) {
 
 =head1 AUTHOR
 
-José M. Fernández E<lt>jose.m.fernandez@bsc.esE<gt>
+José M. Fernández L<https://github.com/jmfernandez>
 
 =head1 COPYRIGHT
 
