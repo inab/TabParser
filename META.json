@@ -36,6 +36,7 @@
          "requires" : {
             "Dist::Milla" : "v1.0.20",
             "Dist::Zilla::Plugin::Run" : "0.048",
+            "OrePAN2" : "0",
             "Test::Pod" : "1.41"
          }
       },
