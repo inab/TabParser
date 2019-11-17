@@ -20,7 +20,11 @@ TabParser - A parser of tabulated or comma separated value files
 
 =head1 SYNOPSIS
 
+=for markdown ```perl
+
   use TabParser;
+
+=for markdown ```
 
 =head1 DESCRIPTION
 
@@ -483,6 +487,17 @@ sub parseTab($;\%) {
 		}
 	}
 }
+
+=head1 INSTALLATION
+
+Latest release of this package is available in the L<BSC INB DarkPAN|https://gitlab.bsc.es/inb/darkpan/>. You
+can install it just using C<cpanm>:
+
+=for markdown ```bash
+
+  cpanm --mirror-only --mirror https://gitlab.bsc.es/inb/darkpan/raw/master/ --mirror https://cpan.metacpan.org/ TabParser
+
+=for markdown ```
 
 =head1 AUTHOR
 
