@@ -4,7 +4,11 @@ TabParser - A parser of tabulated or comma separated value files
 
 # SYNOPSIS
 
+```perl
+
     use TabParser;
+
+```
 
 # DESCRIPTION
 
@@ -24,6 +28,17 @@ parseTab parameters:
 		how to work
 	callback: the function to call with the read data on each
 	err\_callback: the function to call when an error happens
+
+# INSTALLATION
+
+Latest release of this package is available in the [BSC INB DarkPAN](https://gitlab.bsc.es/inb/darkpan/). You
+can install it just using `cpanm`:
+
+```bash
+
+    cpanm --mirror-only --mirror https://gitlab.bsc.es/inb/darkpan/raw/master/ --mirror https://cpan.metacpan.org/ TabParser
+
+```
 
 # AUTHOR
 

@@ -10,7 +10,7 @@ use IO::File;	# For getline
 
 package TabParser;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =encoding utf-8
 
